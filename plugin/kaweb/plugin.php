@@ -4,7 +4,7 @@
  * Description: Inform WW Staff on how many packs to send.
  * Version:     1.0.0
  * Date:        10th March 2022
- * Author: 		 Dan Porter
+ * Author:		 Dan Porter
  * Author URI:  https://kaweb.onlinedan.co.uk
  * Text Domain: wallys-widgets
  * Domain Path: /languages
@@ -74,7 +74,6 @@ if ( ! class_exists( 'Wallys_Widget' ) ) {
 
 			// Include Plugin CSS
 			wp_enqueue_style('ww-main', WW_URL.'/css/main.min.css', true);
-
 		}
 
 		/**
@@ -85,7 +84,6 @@ if ( ! class_exists( 'Wallys_Widget' ) ) {
 
 		public static function ww_includes(){
 			require_once( WW_DIR.'/classes/pack.class.php' );
-
 		}
 
 		/**
